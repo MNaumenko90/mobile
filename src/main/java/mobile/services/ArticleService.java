@@ -11,4 +11,12 @@ public class ArticleService {
                 .clickFirstArticle()
                 .getArticleName();
     }
+    public ArticlePage getArticle(){
+        return articlePage
+                .clickFirstArticle();
+    }
+    public String getArticleHeader(){
+        return articlePage
+                .getArticleHeader();
+    }
 }
