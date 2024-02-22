@@ -19,4 +19,16 @@ public class ArticleService {
         return articlePage
                 .getArticleHeader();
     }
+    public void clickArticle() {
+        articlePage
+                .clickFirstArticle();
+    }
+    public void clickMoreTopRead(){
+        articlePage
+                .clickElementMoreTopRead();
+    }
+    public void clickValentineArticle(){
+        articlePage
+                .clickValentineArticle();
+    }
 }
